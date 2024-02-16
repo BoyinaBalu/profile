@@ -1,0 +1,216 @@
+/* Body styles */
+body{
+font-family:'open sans', sans-serif;
+background-color: #2DDDEB;	
+
+
+}	
+
+/************************************ "Navigation Bar Fields Begin" ****************************************************************************************/
+
+nav{
+	position: relative;
+	margin: 20px auto 0;
+	width: 400px;
+	height: 50px;
+	background: #34495e;
+	border-radius: 8px;
+	font-size:0;
+	box-shadow:10px 10px 10px 0 rgba(0,0,0,.5);
+	
+}
+
+nav a{
+	font-size:15px;
+	text-transform:uppercase;
+	color:white;
+	text-decoration:none;
+	line-height: 50px;
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	text-align: center;
+}
+nav .animation{
+	position: absolute;
+	height:5px; /* this field is for type of highlit for box if given 100px full box will be highlighted*/
+	bottom:0;
+	z-index: 0;
+	background: orange;
+	width: 100px;
+	border-radius: 8px;
+	transition: all .5s ease 0s;
+}
+
+a:nth-child(1){
+	width: 100px;	
+}
+
+nav .start-home,a:nth-child(1):hover~.animation{
+	width:100px;
+	left:0;
+	
+}
+
+
+a:nth-child(2){	
+	width: 110px;	
+}
+nav .start-academics,a:nth-child(2):hover~.animation{
+	width:110px;
+	left:100px;
+	
+}
+
+a:nth-child(3){
+	width: 100px;	
+}
+nav .start-projects,a:nth-child(3):hover~.animation{
+	width:100px;
+	left:210px;
+	
+}
+
+
+a:nth-child(5){
+	width: 120px;
+}
+nav .start-contact,a:nth-child(5):hover~.animation{
+	width:120px;
+	left:470px;
+}	
+
+/************************************ "Navigation Bar Fields END" ****************************************************************************************/
+
+/********************************************************* Main Title Fields Begin *************************************************************/
+
+.maintitle .main{
+text-align: center;
+font-family: 'Charm';
+font-size: xxx-large;
+color: white;
+
+}	
+
+.maintitle .degree{
+	
+text-align: center;
+position: relative;
+top: -15px;
+font-family:arial;
+font-size: large;
+color: black;
+}
+/********************************************************* Main Title Fields End *************************************************************/
+/********************************************************* Profile Fields Begin *************************************************************/
+
+
+.profilephoto .profile{
+	
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  width: 30%;	
+}
+
+/********************************************************* Profile Fields End ************************************************************/
+.descriptionName{
+	font-family: 'Courgette';
+}
+
+/********************************************************* Skills Fields Begin *************************************************************/
+.mytopskills{
+	font-family: 'Courgette';
+	color: Black;
+}
+
+.skills {
+	
+	font-family: 'Courgette';
+	color: Black;
+}
+
+
+/********************************************************* Skills Fields End *************************************************************/
+.projects{
+	font-family: 'Courgette';
+	color: Black;
+}
+
+
+.prjdiv{
+	font-family:arial;
+	color: Black;
+}
+
+.ultratechintern{
+	font-family: 'Courgette';
+	color: Black;
+}
+
+.Academicdetails{
+text-align:center;
+font-size: xx-large;
+
+
+}
+#bachname{
+font-size: x-large;
+
+}
+
+.all-browsers {
+  margin: 0;
+  padding: 5px;
+  background-color: white;
+}
+
+.all-browsers > h1, .browser {
+  margin: 10px;
+  padding: 5px;
+}
+
+.browser {
+  background: #2DDDEB;	
+}
+
+.browser >  p {
+  margin: 4px;
+  font-size: 90%;
+  text-align: center;
+}
+
+.academicdata{
+text-align: center;
+font-family:Monotype Corsiva;
+font-size: xx-large;
+
+}
+
+.myacademics{
+	text-align: center;
+font-family:Monotype Corsiva;
+font-size: xxx-large;
+}
+
+.myach{
+font-family: 'Courgette';
+	color: Black;
+}
+
+.co-curricular{
+	font-family: 'Courgette';
+	color: Black;
+}
+
+.cert{
+	font-family: 'Courgette';
+	color: Black;
+}
+
+.mycontact{
+	font-family: 'Courgette';
+	color: Black;
+}
+
